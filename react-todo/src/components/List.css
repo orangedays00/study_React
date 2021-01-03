@@ -1,0 +1,70 @@
+
+.list-area {
+    background: #eee;
+}
+
+
+.board {
+    padding: 10px;
+}
+
+.board-name {
+    font-size: 26px;
+}
+
+
+.board-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.todo-area {
+    width: 500px;
+    padding: 20px;
+    margin: 20px 28px;
+}
+
+.todo-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    text-align: right;
+}
+
+.undone {
+    border: 2px solid #ccc100;
+    background: #ffffcc;
+    border-radius: 5px;
+}
+
+.done {
+    border: 2px solid #999;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.act-btn {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    border: 3px dotted #333;
+    color: #333;
+    margin: 0 10px 20px;
+    text-decoration: none;
+}
+
+.act-btn:hover {
+    text-decoration: none;
+    background-color: #fff100;
+    color: #333;
+}
+
+th {
+    padding: 5px 0;
+}
+
